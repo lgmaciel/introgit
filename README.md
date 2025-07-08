@@ -108,5 +108,47 @@ Se conferirmos o status do repositório agora, veremos que o arquivo `README.md`
 ```bash
 $ git status
 
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+```
+
+### Commit
+
+O commit exige uma linha de documentação para ser adicionada ao registro feito no repositório. Por isso o commit é feito em duas partes:
+
+Primeiro damos o comando:
+```bash
+$ git commit
+```
+
+Depois, é aberto um editor de texto onde devemos escrever a documentação. Ela deve dizer **o que foi feito nessa alteração**.
 
 ```
+Digite aqui sua "mensagem de commit"
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   README.md
+#
+
+```
+
+> Por padrão o GIT usa o editor `Vim`.
+>
+> Para salvar o texto que você inseriu e sair do Vim:
+> 1. Tecle `<ESC>`
+> 1. Tecle `:`
+> 1. Digite o comando `wq` e dê `<ENTER>`
+>
+> `wq` significa `Write` e depois `Quit`, para gravar o arquivo e sair do programa.
+
