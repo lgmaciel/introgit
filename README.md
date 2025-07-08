@@ -152,3 +152,21 @@ Digite aqui sua "mensagem de commit"
 >
 > `wq` significa `Write` e depois `Quit`, para gravar o arquivo e sair do programa.
 
+## Lendo o log do repositório
+
+Para ver a lista dos commits feitos no repositório:
+
+```bash
+$ git log
+```
+
+Exemplo de saída
+
+```
+commit 35529d5bb98b32429c85e75c4665ee52a2ab2540
+Author: lgmaciel <lgmaciel@email>
+Date:   Tue Jul 8 11:29:24 2025 -0300
+
+    Primeiro commit
+
+```
