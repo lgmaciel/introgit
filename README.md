@@ -1,5 +1,7 @@
 # Introdução ao GIT
 
+Primeiros passos no uso do GIT
+
 ## Inicializar um repositório
 
 Para inicalizar um novo repositório do git:
