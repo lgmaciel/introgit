@@ -1,6 +1,6 @@
 # Introdução ao GIT
 
-Primeiros passos no uso do GIT
+Primeiros passos no uso do GIT em linha de comando e com VSCode.
 
 ## Inicializar um repositório
 
